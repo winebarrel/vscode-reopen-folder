@@ -23,6 +23,36 @@ function reopenFolder(uri: any) {
   vscode.commands.executeCommand("vscode.openFolder", uri, false);
 }
 
+function reopenFolderInPrompt() {
+  vscode.window
+    .showInputBox({
+      placeHolder: "path/to/dir",
+    })
+    .then((path: string | undefined) => {
+      if (!path) {
+        return;
+      }
+
+      let uri = vscode.Uri.file(path);
+
+      if (!path.startsWith("/")) {
+        if (!vscode.workspace.workspaceFolders) {
+          return;
+        }
+
+        const root = vscode.workspace.workspaceFolders[0];
+
+        if (!root) {
+          return;
+        }
+
+        uri = vscode.Uri.joinPath(root.uri, path);
+      }
+
+      vscode.commands.executeCommand("vscode.openFolder", uri, false);
+    });
+}
+
 export function activate(context: vscode.ExtensionContext) {
   const disposableReopenParent = vscode.commands.registerCommand(
     "reopen-folder.reopenParent",
@@ -34,6 +64,13 @@ export function activate(context: vscode.ExtensionContext) {
   const disposableReopenFolder = vscode.commands.registerCommand(
     "reopen-folder.reopenFolder",
     reopenFolder
+  );
+
+  context.subscriptions.push(disposableReopenFolder);
+
+  const disposableReopenFolderInPrompt = vscode.commands.registerCommand(
+    "reopen-folder.reopenFolderInPrompt",
+    reopenFolderInPrompt
   );
 
   context.subscriptions.push(disposableReopenFolder);

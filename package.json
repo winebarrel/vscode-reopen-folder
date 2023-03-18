@@ -2,7 +2,7 @@
   "name": "reopen-folder",
   "displayName": "Reopen Folder",
   "description": "Extension that reopens the specified folder or parent folder.",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "engines": {
     "vscode": "^1.76.0"
   },
@@ -30,6 +30,16 @@
       {
         "command": "reopen-folder.reopenFolder",
         "title": "▼Reopen Here"
+      },
+      {
+        "command": "reopen-folder.reopenFolderInPrompt",
+        "title": "Reopen Folder"
+      }
+    ],
+    "keybindings": [
+      {
+        "key": "ctrl+shift+o",
+        "command": "reopen-folder.reopenFolderInPrompt"
       }
     ],
     "menus": {
