@@ -10,7 +10,7 @@
     "Other"
   ],
   "repository": {
-    "url": "https://github.com/winebarrel/reopen-folder"
+    "url": "https://github.com/winebarrel/vscode-reopen-folder"
   },
   "icon": "etc/icon.png",
   "author": {
