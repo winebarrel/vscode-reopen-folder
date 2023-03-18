@@ -1,6 +1,6 @@
 # Reopen Folder
 
-[![](https://img.shields.io/badge/marketplace-open--parent-blue)](https://marketplace.visualstudio.com/items?itemName=winebarrel.reopen-folder)
+[![](https://img.shields.io/badge/marketplace-reopen--folder-blue)](https://marketplace.visualstudio.com/items?itemName=winebarrel.reopen-folder)
 
 VS Code Extension that reopens the specified folder or parent folder.
 
