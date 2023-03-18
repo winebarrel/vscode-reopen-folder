@@ -1,0 +1,68 @@
+{
+  "name": "reopen-folder",
+  "displayName": "Reopen Folder",
+  "description": "Extension that reopens the specified folder or parent folder.",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "repository": {
+    "url": "https://github.com/winebarrel/reopen-folder"
+  },
+  "icon": "etc/icon.png",
+  "author": {
+    "name": "Genki Sugawara",
+    "email": "sugawara@winebarrel.jp"
+  },
+  "publisher": "winebarrel",
+  "license": "MIT",
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "reopen-folder.reopenParent",
+        "title": "▲Reopen Parent"
+      },
+      {
+        "command": "reopen-folder.reopenFolder",
+        "title": "▼Reopen Here"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "reopen-folder.reopenParent"
+        },
+        {
+          "command": "reopen-folder.reopenFolder",
+          "when": "explorerResourceIsFolder&&!explorerResourceIsRoot"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "@types/vscode": "^1.76.0",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "@vscode/test-electron": "^2.2.3",
+    "eslint": "^8.34.0",
+    "glob": "^8.1.0",
+    "mocha": "^10.2.0",
+    "typescript": "^4.9.5",
+    "vsce": "^2.15.0"
+  }
+}
