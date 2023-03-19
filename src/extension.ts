@@ -15,12 +15,12 @@ function reopenParent(uri: any) {
   vscode.commands.executeCommand("vscode.openFolder", parent, false);
 }
 
-function reopenFolder(uri: any) {
+function openFolder(uri: any, forceNewWindow: boolean) {
   if (!(uri instanceof vscode.Uri)) {
     return;
   }
 
-  vscode.commands.executeCommand("vscode.openFolder", uri, false);
+  vscode.commands.executeCommand("vscode.openFolder", uri, forceNewWindow);
 }
 
 function reopenFolderInPrompt() {
@@ -63,10 +63,17 @@ export function activate(context: vscode.ExtensionContext) {
 
   const disposableReopenFolder = vscode.commands.registerCommand(
     "reopen-folder.reopenFolder",
-    reopenFolder
+    (uri: any) => openFolder(uri, false)
   );
 
   context.subscriptions.push(disposableReopenFolder);
+
+  const disposableOpenFolder = vscode.commands.registerCommand(
+    "reopen-folder.openFolder",
+    (uri: any) => openFolder(uri, true)
+  );
+
+  context.subscriptions.push(disposableOpenFolder);
 
   const disposableReopenFolderInPrompt = vscode.commands.registerCommand(
     "reopen-folder.reopenFolderInPrompt",
