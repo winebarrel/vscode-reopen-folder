@@ -32,6 +32,10 @@
         "title": "▼Reopen Here"
       },
       {
+        "command": "reopen-folder.openFolder",
+        "title": "⧉Open New Here"
+      },
+      {
         "command": "reopen-folder.reopenFolderInPrompt",
         "title": "Reopen Folder"
       }
@@ -49,6 +53,10 @@
         },
         {
           "command": "reopen-folder.reopenFolder",
+          "when": "explorerResourceIsFolder&&!explorerResourceIsRoot"
+        },
+        {
+          "command": "reopen-folder.openFolder",
           "when": "explorerResourceIsFolder&&!explorerResourceIsRoot"
         }
       ]
