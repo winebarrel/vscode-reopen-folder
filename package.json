@@ -49,15 +49,18 @@
     "menus": {
       "explorer/context": [
         {
-          "command": "reopen-folder.reopenParent"
+          "command": "reopen-folder.reopenParent",
+          "group": "2_workspace@100"
         },
         {
           "command": "reopen-folder.reopenFolder",
-          "when": "explorerResourceIsFolder&&!explorerResourceIsRoot"
+          "when": "explorerResourceIsFolder&&!explorerResourceIsRoot",
+          "group": "2_workspace@101"
         },
         {
           "command": "reopen-folder.openFolder",
-          "when": "explorerResourceIsFolder&&!explorerResourceIsRoot"
+          "when": "explorerResourceIsFolder&&!explorerResourceIsRoot",
+          "group": "2_workspace@102"
         }
       ]
     }
