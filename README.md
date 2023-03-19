@@ -12,9 +12,9 @@ The following items are added to the context menu:
 
 ![](https://user-images.githubusercontent.com/117768/226094076-4a176fd4-a84d-49d3-a224-cea947a42992.gif)
 
-## Input path from Prompt
+## Input path from prompt
 
-By default, `ctrl+shift+o` opens Prompt.
+By default, `ctrl+shift+o` opens prompt.
 
 ![](https://user-images.githubusercontent.com/117768/226100117-5e9b59c5-7d71-4975-a3c6-8a296eb11c26.gif)
 
