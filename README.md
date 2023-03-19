@@ -14,7 +14,7 @@ https://user-images.githubusercontent.com/117768/226178558-2273b50a-7a4b-4d56-b8
 
 ## Input path from prompt
 
-By default, `ctrl+shift+o` opens a　prompt.
+By default, `ctrl+shift+o` opens a prompt.
 
 ![](https://user-images.githubusercontent.com/117768/226178715-8906e124-f555-4a23-8871-55cc18fd069b.png)
 
