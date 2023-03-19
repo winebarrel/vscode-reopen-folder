@@ -10,7 +10,7 @@ The following items are added to the context menu:
 
 ## Screenshot
 
-https://user-images.githubusercontent.com/117768/226178558-2273b50a-7a4b-4d56-b88a-33c787eab15a.mov
+![example](https://user-images.githubusercontent.com/117768/226180777-c2f1b3b1-2e41-42fc-892e-2c7463f63fa3.gif)
 
 ## Input path from prompt
 
@@ -18,6 +18,6 @@ By default, `ctrl+shift+o` opens a prompt.
 
 ![](https://user-images.githubusercontent.com/117768/226178715-8906e124-f555-4a23-8871-55cc18fd069b.png)
 
-https://user-images.githubusercontent.com/117768/226178587-bf3e3e72-8b48-4962-969b-934142b4c4bd.mov
+![](https://user-images.githubusercontent.com/117768/226180791-384b61df-40d8-4ef7-8e36-4c8c4b493cdc.gif)
 
 NOTE: Using [icooon-mono.com](https://icooon-mono.com/15429-folder-icon-14/) icon.
