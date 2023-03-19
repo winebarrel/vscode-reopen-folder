@@ -70,7 +70,7 @@ export function activate(context: vscode.ExtensionContext) {
 
   const disposableOpenFolder = vscode.commands.registerCommand(
     "reopen-folder.openFolder",
-    (uri: any) => openFolder(uri, false)
+    (uri: any) => openFolder(uri, true)
   );
 
   context.subscriptions.push(disposableOpenFolder);
