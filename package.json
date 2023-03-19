@@ -50,17 +50,17 @@
       "explorer/context": [
         {
           "command": "reopen-folder.reopenParent",
-          "group": "2_workspace@100"
+          "group": "navigation@300"
         },
         {
           "command": "reopen-folder.reopenFolder",
           "when": "explorerResourceIsFolder&&!explorerResourceIsRoot",
-          "group": "2_workspace@101"
+          "group": "navigation@301"
         },
         {
           "command": "reopen-folder.openFolder",
           "when": "explorerResourceIsFolder&&!explorerResourceIsRoot",
-          "group": "2_workspace@102"
+          "group": "navigation@302"
         }
       ]
     }
