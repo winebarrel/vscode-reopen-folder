@@ -1,7 +1,7 @@
 # Reopen Folder
 
 [![build](https://github.com/winebarrel/vscode-reopen-folder/actions/workflows/build.yml/badge.svg)](https://github.com/winebarrel/vscode-reopen-folder/actions/workflows/build.yml)
-[![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/winebarrel.reopen-folder)](https://marketplace.visualstudio.com/items?itemName=winebarrel.reopen-folder)
+[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/winebarrel.reopen-folder)](https://marketplace.visualstudio.com/items?itemName=winebarrel.reopen-folder)
 
 VS Code Extension that reopens the specified folder or parent folder.
 
