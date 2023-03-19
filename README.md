@@ -6,16 +6,18 @@ VS Code Extension that reopens the specified folder or parent folder.
 
 The following items are added to the context menu:
 
-![](https://user-images.githubusercontent.com/117768/226147348-eef99536-98ee-4870-8594-15f8e5a60532.png)
+![](https://user-images.githubusercontent.com/117768/226178538-6a880078-b4c4-4c28-ae8d-8a547b332e3a.png)
 
 ## Screenshot
 
-![](https://user-images.githubusercontent.com/117768/226094076-4a176fd4-a84d-49d3-a224-cea947a42992.gif)
+https://user-images.githubusercontent.com/117768/226178558-2273b50a-7a4b-4d56-b88a-33c787eab15a.mov
 
 ## Input path from prompt
 
-By default, `ctrl+shift+o` opens prompt.
+By default, `ctrl+shift+o` opens a　prompt.
 
-![](https://user-images.githubusercontent.com/117768/226100117-5e9b59c5-7d71-4975-a3c6-8a296eb11c26.gif)
+![](https://user-images.githubusercontent.com/117768/226178715-8906e124-f555-4a23-8871-55cc18fd069b.png)
+
+https://user-images.githubusercontent.com/117768/226178587-bf3e3e72-8b48-4962-969b-934142b4c4bd.mov
 
 NOTE: Using [icooon-mono.com](https://icooon-mono.com/15429-folder-icon-14/) icon.
