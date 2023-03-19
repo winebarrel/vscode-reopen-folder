@@ -2,7 +2,7 @@
   "name": "reopen-folder",
   "displayName": "Reopen Folder",
   "description": "Extension that reopens the specified folder or parent folder.",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "engines": {
     "vscode": "^1.76.0"
   },
