@@ -82,7 +82,7 @@
     "@vscode/test-electron": "^2.2.3",
     "@vscode/vsce": "^2.19.0",
     "eslint": "^8.40.0",
-    "glob": "^10.2.2",
+    "glob": "^10.2.4",
     "mocha": "^10.2.0",
     "typescript": "^5.0.4"
   }
