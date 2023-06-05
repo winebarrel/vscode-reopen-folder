@@ -84,6 +84,6 @@
     "eslint": "^8.41.0",
     "glob": "^10.2.6",
     "mocha": "^10.2.0",
-    "typescript": "^5.0.4"
+    "typescript": "^5.1.3"
   }
 }
