@@ -11,7 +11,7 @@ The following items are added to the context menu:
 
 ## Screenshot
 
-![example](https://user-images.githubusercontent.com/117768/226180777-c2f1b3b1-2e41-42fc-892e-2c7463f63fa3.gif)
+![](https://github.com/winebarrel/vscode-reopen-folder/assets/117768/08e51d7a-a3af-47e5-ab81-bf66c2753381)
 
 ## Input path from prompt
 
