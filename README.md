@@ -19,6 +19,6 @@ By default, `ctrl+shift+o` opens a prompt.
 
 ![](https://user-images.githubusercontent.com/117768/226178715-8906e124-f555-4a23-8871-55cc18fd069b.png)
 
-![](https://user-images.githubusercontent.com/117768/226180791-384b61df-40d8-4ef7-8e36-4c8c4b493cdc.gif)
+![](https://github.com/winebarrel/vscode-reopen-folder/assets/117768/afb86df5-f63f-4827-8c75-56ee4998052b)
 
 NOTE: Using [icooon-mono.com](https://icooon-mono.com/15429-folder-icon-14/) icon.
