@@ -72,6 +72,18 @@
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts"
   },
+  "overrides": {
+    "ajv": "6.14.0",
+    "@secretlint/config-loader": {
+      "ajv": "8.18.0"
+    },
+    "table": {
+      "ajv": "8.18.0"
+    },
+    "diff": "8.0.3",
+    "markdown-it": "14.1.1",
+    "serialize-javascript": "7.0.3"
+  },
   "devDependencies": {
     "@types/mocha": "^10.0.10",
     "@types/node": "25.x",
