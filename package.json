@@ -73,16 +73,13 @@
     "lint": "eslint src --ext ts"
   },
   "devDependencies": {
-    "@types/mocha": "^10.0.10",
     "@types/node": "25.x",
     "@types/vscode": "^1.110.0",
     "@typescript-eslint/eslint-plugin": "^8.57.1",
     "@typescript-eslint/parser": "^8.32.1",
-    "@vscode/test-electron": "^2.5.2",
     "@vscode/vsce": "^3.7.1",
     "eslint": "^9.39.4",
     "glob": "^13.0.6",
-    "mocha": "^11.7.5",
     "typescript": "^5.9.3"
   }
 }
