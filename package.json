@@ -75,11 +75,11 @@
   "devDependencies": {
     "@types/node": "25.x",
     "@types/vscode": "^1.110.0",
-    "@typescript-eslint/eslint-plugin": "^8.57.1",
+    "@typescript-eslint/eslint-plugin": "^8.57.2",
     "@typescript-eslint/parser": "^8.32.1",
     "@vscode/vsce": "^3.7.1",
     "eslint": "^9.39.4",
     "glob": "^13.0.6",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.2"
   }
 }
